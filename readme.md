@@ -7,7 +7,7 @@ https://github.com/remarkjs/remark-slug adresinden forklanmıştır. github-slug
 [npm][]:
 
 ```sh
-npm install https://github.com/ftpyz/remark-slug --save
+npm install https://github.com/ftpyz/remark-slugify --save
 ```
 
 ## License
