@@ -1,7 +1,7 @@
 {
-  "name": "remark-slug",
+  "name": "remark-slugify",
   "version": "6.0.0",
-  "description": "remark plugin to add anchors to headings",
+  "description": "remark plugin to add anchors to headings with slugify",
   "license": "MIT",
   "keywords": [
     "unified",
@@ -14,10 +14,11 @@
     "slug",
     "id",
     "github",
-    "npm"
+    "npm",
+    "slugify"
   ],
-  "repository": "remarkjs/remark-slug",
-  "bugs": "https://github.com/remarkjs/remark-slug/issues",
+  "repository": "ftpyz/remark-slugify",
+  "bugs": "https://github.com/ftpyz/remark-slugify/issues",
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/unified"
