@@ -15,8 +15,13 @@ function transformer(ast) {
   slugs.reset();
 
   visit(ast, 'heading', function (node) {
+<<<<<<< HEAD
     var id = slugify(slugs.slug(toString(node)));
     console.log(id);
+=======
+    
+    var id = slugify(slugs.slug(toString(node)));
+>>>>>>> c3c5aa924592cb98f60ee73e9020be6fd00a2583
     var data = patch(node, 'data', {});
 
     /* Non-html */
