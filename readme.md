@@ -10,6 +10,24 @@ https://github.com/remarkjs/remark-slug adresinden forklanmıştır. github-slug
 npm install https://github.com/ftpyz/remark-slug --save
 ```
 
+## Gridsome Example
+
+```sh
+{
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'docs/**/*.md',
+        typeName: 'Doc',
+        remark: {
+          plugins: [
+            '@gridsome/remark-prismjs',
+             'remark-slugify',
+          ],
+        }
+      }
+    },
+```
+
 ## License
 
 [MIT][license] © [GurmeWoo][author]
