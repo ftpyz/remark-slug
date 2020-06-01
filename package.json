@@ -1,6 +1,6 @@
 {
   "name": "remark-slugify",
-  "version": "4.2",
+  "version": "4.2.1",
   "description": "Add anchors to remark heading nodes with slugify turkish",
   "license": "MIT",
   "keywords": [
