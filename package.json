@@ -33,10 +33,7 @@
   "dependencies": {
     "github-slugger": "^1.0.0",
     "mdast-util-to-string": "^1.0.0",
-<<<<<<< HEAD
     "slugify": "^1.4.0",
-=======
->>>>>>> 97021c9661c25173abe7a6ddb0f83fe304de1c52
     "unist-util-visit": "^2.0.0"
   },
   "devDependencies": {
