@@ -24,6 +24,7 @@
   "dependencies": {
     "github-slugger": "^1.0.0",
     "mdast-util-to-string": "^1.0.0",
+    "slugify": "^1.4.0",
     "unist-util-visit": "^1.0.0"
   },
   "devDependencies": {
