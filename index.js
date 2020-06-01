@@ -16,6 +16,7 @@ function transformer(ast) {
 
   visit(ast, 'heading', function (node) {
     var id = slugs.slug(toString(node));
+    console.log(id);
     var data = patch(node, 'data', {});
 
     /* Non-html */
