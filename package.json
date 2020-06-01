@@ -1,7 +1,7 @@
 {
-  "name": "remark-slug",
-  "version": "4.2.3",
-  "description": "Add anchors to remark heading nodes",
+  "name": "remark-slugify",
+  "version": "0.1",
+  "description": "Add anchors to remark heading nodes with slugify turkish",
   "license": "MIT",
   "keywords": [
     "text",
@@ -12,10 +12,11 @@
     "npm",
     "remark"
   ],
-  "repository": "wooorm/remark-slug",
-  "bugs": "https://github.com/wooorm/remark-slug/issues",
-  "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
+  "repository": "ftpyz/remark-slugify",
+  "bugs": "https://github.com/ftpyz/remark-slugify/issues",
+  "author": "Fuat POYRAZ <fuatpoyrazz@gmail.com> (http://gurmewooo.com)",
   "contributors": [
+    "Fuat POYRAZ <fuatpoyrazz@gmail.com> (http://gurmewooo.com)",
     "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
   ],
   "files": [
