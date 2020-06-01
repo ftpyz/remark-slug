@@ -3,7 +3,7 @@
 var toString = require('mdast-util-to-string');
 var visit = require('unist-util-visit');
 var slugs = require('github-slugger')();
-var slugify=require("slugify");
+
 module.exports = attacher;
 
 function attacher() {
@@ -15,9 +15,7 @@ function transformer(ast) {
   slugs.reset();
 
   visit(ast, 'heading', function (node) {
-
-    var id = slugify(slugs.slug(toString(node)));
-    console.log(id);
+    var id = slugs.slug(toString(node));
     var data = patch(node, 'data', {});
 
     /* Non-html */
